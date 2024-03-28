@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+/*.tauri-regular {
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+*/  
+
+header{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(121, 121, 121);
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+section{
+    margin: auto;
+    width: 70vw;
+
+}
+.container-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.user-perfil{
+    display: flex;
+}
