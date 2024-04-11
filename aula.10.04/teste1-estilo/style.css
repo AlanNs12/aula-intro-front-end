@@ -1,0 +1,21 @@
+.flex-container{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+    width: 80vw;
+    list-style: none;
+}
+.horizontal{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vertical{
+    float: left;
+    flex-direction: column;
+}
+.minhas-letras{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    ;
+}
