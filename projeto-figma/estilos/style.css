@@ -44,18 +44,22 @@ ul{
     list-style: none;
 }
 li{
-    width: 20%;
-    height: 5%;
-    align-items: center;
-    justify-content: center;
-    border: solid black;
-    border-radius: 5px;
+    
+}
+li p{
     font-size: 1.3rem;
     font-weight: bold;
     font-family: Koulen;
-    margin: 1rem;
     padding: 1.2rem;
     background-color: #FFD13C;
+    text-align: center;
+    width: 20%;
+    height: 3%;
+    border: solid black;
+}
+article{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .conteudo-blog{
     background-color: #E4E4E4;
@@ -65,5 +69,13 @@ li{
 }
 .title-align{
     text-align: center;
-    font-family: ;
+    font-family: Nunito-variable;
+}
+
+.botoes {
+    
+    position: relative;
+    bottom: -65%;
+    border-radius: 5px 5px 0px 0px;
+    
 }
